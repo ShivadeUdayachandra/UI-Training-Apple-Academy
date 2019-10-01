@@ -72,7 +72,8 @@ i{
 .sec2{
     background: url("../images/g1.jpg ");
     background-color:salmon;
-    height:500px;
+    height:501px;
+
     width: 100%;
     background-repeat: no-repeat;   
     background-position: center;

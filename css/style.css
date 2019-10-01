@@ -2,9 +2,10 @@ body
 {
     border: 3px solid black;
 }
-section.sec1{
-    height:7%;
+.sec1{
+    height:35px;
     background-color: #8B008B;
+    width: 100%;
 }
 #header a
 {

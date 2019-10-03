@@ -49,6 +49,7 @@ nav a{
     color:black;
      margin-left:30px;
 }
+/* nav bar active element styling */
 nav .select {
     background-color: darkgoldenrod;
     padding:10px;

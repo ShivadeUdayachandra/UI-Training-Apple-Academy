@@ -43,12 +43,13 @@ nav{
     align-self: auto;
     padding-bottom:5px;
 }
+
 nav a{
     text-decoration: none;
     color:black;
      margin-left:30px;
 }
-nav #first{
+nav .select {
     background-color: darkgoldenrod;
     padding:10px;
     border-top-left-radius: 5px;

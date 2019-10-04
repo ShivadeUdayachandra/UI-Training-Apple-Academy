@@ -1,3 +1,8 @@
+/* Basil Styles  */
+
+
+
+
 body{
     
     padding: 0;
@@ -36,13 +41,13 @@ a right_nav_items
 {
     margin-right: 10px;
 }
-.image_slider {
+.bf_image_slider {
     background: url("slide_image.png");
+    width: 100%;
     height:300px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+
     
 }
 
@@ -54,7 +59,7 @@ span{
     margin-top: 100px;
     
 }
-section.image_slider img
+section.bf_image_slider img
 {
    margin: 0;
     width: 100%;
@@ -66,7 +71,7 @@ section.image_slider img
     text-align: center;
 }
 
-.second_navbar 
+.bf_second_navbar 
 {
     display: flex;
     flex-direction: row;
@@ -91,14 +96,14 @@ section.image_slider img
     padding:0;
 }
 
-.container{
+.bf_container{
     background-color:#20b2aa;
     padding: 10px;
     margin: 0px;
     min-height: 10px;
     color: white;
 }
-.container_2{
+.bf_container_2{
     
     margin: 2%;
     padding: 10px;
@@ -106,7 +111,7 @@ section.image_slider img
 
         
     }
-.container_3{
+.bf_container_3{
     background-color: white;
 }
     
@@ -119,7 +124,7 @@ font-size: 20px;
 
 
 
-.grid-container {
+.bf_grid_container {
   display: grid;
   grid-template-columns: auto auto auto ;
   grid-gap: 10px;
@@ -127,7 +132,7 @@ font-size: 20px;
   padding: 10px;
 }
 
-.grid-container > div {
+.bf_grid_container > div {
   
   text-align: center;
   padding: 20px 0;
@@ -137,7 +142,7 @@ font-size: 20px;
 }
 
 
-.mainsec2{
+.bf_mainsec2{
     margin-top:2%;
    /* background-color:aqua;*/
     width:20%;
@@ -150,7 +155,7 @@ font-size: 20px;
     margin-bottom:0%;
    
 }
-    .mainsec2 section {
+    .bf_mainsec2 section {
         height: 30px;
         width: 100%;
         color: white;
@@ -162,7 +167,7 @@ font-size: 20px;
         padding-bottom: 30px;
     }
 
-.mainsec2 p{
+.bf_mainsec2 p{
     margin-top: 20px;
 }
 .outer_section
@@ -183,7 +188,7 @@ article{
     
 }
 
-.footer{
+.bf_footer{
     background-color: black;
     
     height: 40px;
@@ -192,7 +197,7 @@ article{
     
 }
 
-.footer_right_items
+.bf_footer_right_items
 {
     float: right;
     padding: 10px;
@@ -200,7 +205,7 @@ article{
     margin-right: 30px;
     
 }
-.footer_left_items
+.bf_footer_left_items
 {
     float: left;
     padding: 10px;
@@ -208,8 +213,11 @@ article{
     
 }
 
-a footer_right_items
+a bf_footer_right_items
 {
     margin-right: 10px;
     padding: 20px;
 }
+
+
+/* Basil style ends */

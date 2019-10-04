@@ -1,80 +1,80 @@
-header{
+.mk header{
     height:70px;
     width:95%;
     margin:auto;
     
 }
-#msec{
+#mk_headsec{
     float:left;
     width:97%;
 }
-#sech1{
+#mk_headsec1{
     height:20px;
 }
-#sech2{
+#mk_headsec2{
     height:20px;
 }
-.span1{
+#mk_namesec span{
     color: darkgoldenrod;
 }
-#sec1
+#mk_namesec
 {
     float:left;
     font-weight: bold;
     font-size:30px;
     margin-top:2px;
 }
-#sec2{
+#mk_callsec{
     float:right;
     margin-top: 20px;
 }
-#sym{
+#mk_phone{
     font-size: 30px;
 }
-#sec3{
+#mk_sec3{
     float:left;
 }
-#sec4{
+#mk_sec4{
     float:right;
 }
-nav{
+.mk nav{
     border-bottom: 5px solid darkgoldenrod;
     width:100%;
     align-self: auto;
     padding-bottom:5px;
 }
 
-nav a{
+.mk nav a{
     text-decoration: none;
     color:black;
      margin-left:30px;
 }
 /* nav bar active element styling */
-nav .select {
+.mk nav .mk_select {
     background-color: darkgoldenrod;
     padding:10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-article{
+.mk article{
     
     background-color: rgb(105, 105, 8);
     padding:3%;
 }
-#wsec{
+#mk_whitesec{
     background-color: white;
     padding:0.8%;
 }
-#asec1{
+#mk_banner1{
     display:inline-block;
     width:74%;
 }
-#asec1 img{
+#mk_banner1 img{
     width:100%;
     height:300px;
     
 }
-#heading{
+#mk_banner1 section{
     background-color: black;
     opacity:0.5;
     color:white;
@@ -82,53 +82,50 @@ article{
     height:50px;
     margin-top:-85px;
 }
-#heading span{
-    font-size: 20px;
-    font-weight: bold;
-}
-#wasec2{
+
+#mk_banner2{
     width:23%;
     float:right;
     background-color: darkgoldenrod;
     height:300px;
     padding-left:2%;
 }
-#asec2{
+#mk_formsec2{
     color:white;
     display:inline-block;
     height:300px;
     width:100%;
 }
-#name{
+#mk_name{
     height:20px;
     width:80%;
     border-radius: 5px;
     border-block-end-style: none;
 }
-#email{
+#mk_email{
     height:20px;
     width:80%;
     border-radius: 5px;
     border-block-end-style: none;
 }
-#idea{
+#mk_idea{
     height:50px;
     width:80%;
     border-radius: 5px;
     border-block-end-style: none;
 }
-#asec2 button{
+#mk_formsec button{
     background-color: black;
     color:white;
     width:100px;
     height:30px;
     border-radius: 5px;
 }
-#p2msec{
+#mk_contentsec{
     padding:2%;
     
 }
-.p2sec{
+.mk_card{
     background-color:rgba(211, 211, 211, 0.226);
     border:2px solid rgba(200, 200, 200, 1);
     display: inline-block;
@@ -139,15 +136,15 @@ article{
     padding-top:0px;
     padding-bottom:0px;
 }
-.p2sec a{
+.mk_card a{
     color:black;
 }
-.content{
+.mk_content{
     display:inline-block;
     width:200px;
     height:80px;
 }
-.box{
+.mk_box{
     padding:3px;
     float:right;
     background-color:white;
@@ -156,13 +153,13 @@ article{
     border:2px solid rgba(200, 200, 200, 1);
     
 }
-.inbox{
+.mk_box section{
     background-color: rgba(200, 200, 200, 1);
     width:90px;
     height:90px;
     
 }
-footer{
+.mk footer{
     background-color: rgb(105, 105, 8);
     height:80px;
     color:white;
@@ -170,23 +167,23 @@ footer{
     padding-top:20px;
     padding-bottom:20px;
 }
-#fsec1{
+#mk_fsec1{
     display:inline-block;
 }
-#fsec2{
+#mk_fsec2{
     margin-right: 40px;
     float:right;
 }
-#fsec1 a{
+#mk_fsec1 a{
     text-decoration: none;
     color:white;
 }
-#subs{
+#mk_subs{
     height:30px;
     border-radius: 5px;
     width:250px;
 } 
-#fsec2 button{
+#mk_fsec2 button{
     height:30px;
     width:100px;
     border-radius:5px;

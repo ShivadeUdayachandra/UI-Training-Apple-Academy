@@ -22,7 +22,7 @@
     
 }
 
-a
+.bf_a
 {
     color: black;
     text-decoration: none;
@@ -30,14 +30,15 @@ a
 
 
 
-.right_nav_items
+.bf_body .right_nav_items
 {
     float: right;
     padding-right: 5px;
     word-spacing: 10px;
+    color: black;
     
 }
-a right_nav_items
+.bf_body a 
 {
     margin-right: 10px;
 }
@@ -51,7 +52,7 @@ a right_nav_items
     
 }
 
-span{
+.bf_span{
     background-color: white;
     font-size: 40px;
     padding-bottom: 10px;
@@ -59,7 +60,7 @@ span{
     margin-top: 100px;
     
 }
-section.bf_image_slider img
+.bf_image_slider img
 {
    margin: 0;
     width: 100%;
@@ -67,11 +68,7 @@ section.bf_image_slider img
     margin-bottom: 0px;
 }
 
-.overlap{   
-    text-align: center;
-}
-
-.bf_second_navbar 
+.bf_body .bf_second_navbar 
 {
     display: flex;
     flex-direction: row;
@@ -79,17 +76,6 @@ section.bf_image_slider img
     width: 60%;
     margin: auto;
 }
-/*
-.section_3
-{
-    background-color: blue;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-}
-*/
 
 *{
     margin:0;
@@ -108,15 +94,10 @@ section.bf_image_slider img
     margin: 2%;
     padding: 10px;
 }   
-
-        
-    }
 .bf_container_3{
     background-color: white;
 }
-    
-
- h2
+ .bf_body h2
 {
 font-size: 20px;
     text-align: center;
@@ -143,6 +124,7 @@ font-size: 20px;
 
 
 .bf_mainsec2{
+
     margin-top:2%;
    /* background-color:aqua;*/
     width:20%;
@@ -154,7 +136,7 @@ font-size: 20px;
     margin-left:10%;
     margin-bottom:0%;
    
-}
+        }
     .bf_mainsec2 section {
         height: 30px;
         width: 100%;
@@ -170,19 +152,19 @@ font-size: 20px;
 .bf_mainsec2 p{
     margin-top: 20px;
 }
-.outer_section
+.bf_outer_section
 {
     margin-left: 5%;
     margin-right: 5%;
 }
 
 
-header{
+ .bf_body header{
     text-align: center;
     margin: 10px;
     font-size: 40px;
 }
-article{
+.bf_body article{
     text-align: center;
     font-size: 15px;
     
@@ -212,8 +194,7 @@ article{
     color: white;
     
 }
-
-a bf_footer_right_items
+.bf_footer_right_items
 {
     margin-right: 10px;
     padding: 20px;

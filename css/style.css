@@ -1,0 +1,280 @@
+#ni-body{    
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    overflow-x: hidden;
+}
+.ni-header{ 
+    margin-top: -30px;
+    top: 0px;  
+    color: white;
+    padding-top: 30px;
+    height: 130px;
+}
+.ni-container{
+    background: black;
+    margin: auto;
+    overflow: hidden;
+   
+}
+.ni-logo{
+    float: left;
+    margin: 5px;
+}
+.ni-logo img{    
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: black;
+    border-radius:50px; 
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.ni-logo figcaption{
+    
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: 10px black;
+}
+.ni-header nav{
+    float: right;
+    margin-top: 35px;
+}
+.ni-header ul{
+    margin: 0;
+    padding: 0;
+}
+.ni-header li{
+    
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px 0 20px; 
+    
+}
+.ni-header a{
+    margin-right: 20px;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+.ni-header a.active {
+    background-color: white;
+    color: black;
+  }
+  
+  .ni-header a:hover:not(.active) {
+    background-color: white;
+    
+    color: black;
+  }
+.sp{    
+    font-size: 30px;
+}
+.mailbox{
+    float: right;
+}
+.fa-heart{
+    
+    padding: 10px;
+    background-color: rgb(252, 6, 239);
+    margin-left: 150px;
+    cursor: pointer;
+    
+}
+.fa-search{
+    padding: 10px;
+    background-color: gray;
+    margin-left: -45px;
+    cursor: pointer;
+}
+.fa-envelope{
+    margin-left: -10px;
+    cursor: pointer;
+}
+/*-----------------slider-----------------*/
+#ni-slider{
+    overflow:hidden;
+    height: 80vh;
+}
+#ni-slider figure{
+    width: 500%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    left: 0;
+    
+}
+#ni-slider figure img{
+    width: 20%;
+    float: left;
+}
+
+/*----------------more description-------------*/
+.ni-more_options{
+    background-color: rgb(168, 167, 167);
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    margin-top: 3px;
+    
+}
+.desc{
+    color: rgb(252, 4, 252);
+    font-weight: bold;
+}
+.ni-description-1{
+    display: inline-flex;
+}
+.ni-description-1 ul{
+    list-style-type: none;
+    margin: 30px;
+
+}
+.ni-description-1 ul img{
+    border-radius:50px;
+    width: 80px;
+    height: 80px;
+    border: 2px white solid;
+}
+
+/*-----------------------side menu--------------------*/
+.ni-side-menu{
+    height: 79%;
+    width: 15%;
+    font-size: 16px;
+    float: left;
+    z-index: 2;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+.ni-side-menu ul{
+   margin-left: -20px;
+}
+.ni-side-menu ul li{
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ni-side-menu ul li:hover{
+    
+    background-color: black;
+    transition: background 1s linear;
+   
+}
+.ni-side-menu ul li ul{
+    display: none;
+    z-index: 10;
+    top: 180px;
+}
+.ni-side-menu ul li:hover ul{
+    display: block;
+    height: 400px;
+    margin-left: 13%;
+    padding: 0 100px 10px 10px;
+    position: fixed;
+    background: black;
+    color: white;
+    opacity: 0.5;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5) ;
+    
+}
+
+.ni-side-menu ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.ni-side-menu ul li a i:hover{
+    color:black;
+
+}
+
+.ni-side-menu ul li ul li:hover{
+    
+    color: gray;
+}  
+.ni-side-menu li:hover a{
+    color: white;
+
+    
+}
+.fa-angle-right{
+    float: right;
+    margin-left: 10px;
+}
+#icon{
+    float: left;
+    margin-right: 40px;
+    margin-left: 3px;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 1px solid;
+    padding: 2px;
+    line-height: 20px;    
+    border-color: black;
+}
+
+.ni-side-menu li:hover #icon{
+    color: black;
+}
+/*---------------featured categories------------*/
+.ni-featured-categories{
+    padding: 10px;
+
+}
+
+.ni-featured-categories img{
+    width: 30vh;
+    height: 30vh;
+    
+    transition: 1s;
+    cursor: pointer;
+    
+}
+.ni-featured-categories figure{
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ni-widget1 figcaption{
+    font-size: 12px;
+   
+}
+.ni-widgets{
+    display: flex;
+    justify-content: space-around;
+
+}
+.ni-widget1{
+    border: 1px gray solid;
+    max-width: 236px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.ni-button{
+    float: right;
+    cursor: pointer;
+}

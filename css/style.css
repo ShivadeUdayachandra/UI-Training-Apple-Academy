@@ -51,6 +51,7 @@ margin-top: -305px;
     padding-right: 5px;
     word-spacing: 10px;
     color: black;
+    text-decoration: none;
     
 }
 .bf_body a 
@@ -92,7 +93,7 @@ margin-top: -305px;
     margin: auto;
 }
 
-*{
+ .bf_body *{
     margin:0;
     padding:0;
 }

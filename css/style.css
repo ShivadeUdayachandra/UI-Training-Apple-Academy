@@ -6,7 +6,7 @@
     padding: 5px 5px 5px s5px;
     z-index: 5;
 }
-.material-icons{
+.nih_body .material-icons{
 	float: right;
 }
 
@@ -18,7 +18,7 @@
 	height: 100%;
 
 }
-.text{
+.nih_body .text{
 	font-size: 20px;
 font-family: Brush Script MT, Brush Script Std, cursive;
 color: #fff0b3;
@@ -86,36 +86,36 @@ height: 15%;
 	
 
 }
-.news{
+.nih_body .news{
 	font-size: 20px;
 
 }
 .nih_facebooktwittergoogle{
 	text-align: left;
 }
-.fa {
+.nih_body .fa {
 
-  padding: 20px;
-  font-size: 30px;
-  width: 10px;
+  padding: 15px;
+  font-size: 22px;
+  width: 13px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 60px 60px 60px 60px;
 }
-.fa:hover {
+.nih_body .fa:hover {
     opacity: 0.6;
 }
-.fa-facebook {
+.nih_body .fa-facebook {
   background: #3B5998;
   color: white;
 }
-.fa-twitter {
+.nih_body .fa-twitter {
   background: #55ACEE;
   color: white;
 }
 
-.fa-google {
+.nih_body .fa-google {
   background: #dd4b39;
   color: white;
 }

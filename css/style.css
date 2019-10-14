@@ -91,12 +91,13 @@ margin-top: -305px;
     justify-content: space-evenly;
     width: 60%;
     margin: auto;
+    margin-bottom: 20px;
 }
 
- .bf_body *{
+/* .span_center_text *{
     margin:0;
     padding:0;
-}
+} */
 
 .bf_container{
     background-color:#20b2aa;

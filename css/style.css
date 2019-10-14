@@ -75,13 +75,13 @@
     
     color: black;
   }
-.sp{    
+  .ni-header .ni-container .sp{    
     font-size: 30px;
 }
 .mailbox{
     float: right;
 }
-.fa-heart{
+.ni-header .ni-container .fa-heart{
     
     padding: 10px;
     background-color: rgb(252, 6, 239);
@@ -89,13 +89,13 @@
     cursor: pointer;
     
 }
-.fa-search{
+.ni-header .ni-container .fa-search{
     padding: 10px;
     background-color: gray;
     margin-left: -45px;
     cursor: pointer;
 }
-.fa-envelope{
+.ni-header .ni-container .fa-envelope{
     margin-left: -10px;
     cursor: pointer;
 }
@@ -213,11 +213,11 @@
 
     
 }
-.fa-angle-right{
+.ni-side-menu .fa-angle-right{
     float: right;
     margin-left: 10px;
 }
-#icon{
+#ni-icon{
     float: left;
     margin-right: 40px;
     margin-left: 3px;

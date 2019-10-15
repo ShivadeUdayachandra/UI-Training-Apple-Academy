@@ -73,10 +73,16 @@
     margin-top: 20px;
     margin-right: 40px;
 }
-.dr_icons span:hover
+/* .dr_icons span:hover
 {
     box-shadow: 10px 5px 10px 5px rgba(3, 0, 0, 0.856);
     border-radius: 50px;
+    background-origin: padding-box;
+} */
+.dr_abc:hover
+{
+    box-shadow: 10px 5px 10px 5px rgba(3, 0, 0, 0.856);
+    border-radius: 20px;
     background-origin: padding-box;
 }
 
@@ -313,8 +319,8 @@ margin-left:10%;
 }
 .mp nav a{
     display: inline;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:3%;
+    margin-right:3%;
     font-size:20px;
     text-decoration:none;
     color: #39423d;

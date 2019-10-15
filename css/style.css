@@ -747,6 +747,26 @@ border-bottom: 0.5px groove black;
 
 }
 
+
+
+.nih_table {
+   border-collapse: collapse;
+
+
+}
+.nih_th{
+	background-color: #ccf2ff;
+}
+.nih_table, .nih_th,.nih_td{
+	border: 0.05px solid black;
+	 padding: 15px;
+}
+
+.nih_table .nih_tr:first-child .nih_
+table tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+
 /* niharika css ends  */
 
 

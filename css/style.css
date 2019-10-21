@@ -201,8 +201,72 @@
         background-color:blue;
     }
       /* mounika css ends here */
+/*login css */
+.mpl{
+    background-color: gainsboro;             
+} 
+.mpl form{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-15%;
+    margin-top:-200px;
+    border: 3px solid black;
+    border-radius: 20px;
+    width:25%;
+    height:300px;
+    padding: 2%;
+} 
+.mpl h2{             
+      text-align: center;
+  }
+  .mpl label{
+      
+      text-align: left;
+      margin-left: 2%;
+     
+      height: 18px;
+      
 
-
+     
+  }
+  .mpl input[type="text"]{                
+    float: right;
+    width: 50%;
+    height: 20px;            
+    
+      border:1px solid gray;
+      border-radius: 4px;
+      text-align:  center; 
+      margin-right: 20%;
+     
+  }
+  .mpl input[type="password"]{                
+    float: right;
+    width: 50%;
+    height: 20px;
+    margin-right: 20%;   
+    border:1px solid gray;
+    border-radius: 5px; 
+    text-align:  center;       
+      
+  }
+  .mpl input[type="submit"]{
+      display: block;
+       margin: auto;  
+      width: auto;
+       height: 30px;
+   background-color:lavender;
+   border-radius: 2px;
+   border:1px solid gray;
+  }
+.mpl i{
+    position: relative;
+   left:50%;
+    margin-left: -50px;
+  font-size: 70px;
+   
+}
 /* ramesh css starts here*/
 
 .dr

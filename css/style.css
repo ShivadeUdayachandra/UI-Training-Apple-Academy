@@ -191,6 +191,80 @@ i.dr_abc
     color: #444;
 }
 
+/* login form css */
+.dr_login
+{
+    /* background-image: url("/images/dr_login_bg.jpg");
+    background-size: cover; */
+    background-image: linear-gradient(to right,#5433ff,#20bdff,#a5fecb);
+}
+.dr_login_container{
+    /* border: 2px solid #b3ecff; */
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    margin-top: 10%;
+}
+.dr_login_ip
+{
+    display: inline-block;
+    position: relative;
+}
+.dr_login_txt
+{
+    border: none;
+    padding-left: 40px;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border-radius:30px;
+
+}
+.dr_login_icon
+{
+    color: #167beeff;
+    /* padding: 9px 8px; */
+    position: absolute;
+    left: 20px;
+    top: 19px;
+}
+.dr_login_button
+{
+     margin: 10px;
+     width: 240px;
+     /* height: 30px; */
+     background-color: #222d6d;
+     color:#fff;
+     padding-top: 10px;
+     padding-bottom: 10px;
+      border-radius:30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dr_login_main
+{
+    position: relative;
+    left: 100px;
+    color: #f4f1ea;
+}
+.dr_login_container h1
+{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    color: #222d6d;
+}
+.dr_login_container h4
+{
+    position: relative;
+    left: 10px;
+    color: #f4f1ea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
 /* ramesh  css ends */
 
 

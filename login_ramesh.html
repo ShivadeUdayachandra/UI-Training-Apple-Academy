@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="/js/main.js"></script>
+
+</head>
+
+<body class="dr_login">
+    <section class="dr_login_container">
+        <i class="fa fa-user-circle fa-4x dr_login_main" aria-hidden="true"></i>
+        <h1>Ramesh Login</h1>
+        <form action="/index_ramesh.html" onsubmit="return dr_check()">
+
+            <section class="dr_login_ip">
+
+                <i class="fa fa-user dr_login_icon" aria-hidden="true"></i>
+
+                <input type="text" name="username" id="name" class="dr_login_txt" placeholder="enter username" required>
+
+            </section>
+            <br>
+            <section class="dr_login_ip">
+
+                <i class="fa fa-unlock-alt dr_login_icon" aria-hidden="true"></i>
+
+                <input type="password" name="pass" id="pass" class="dr_login_txt" placeholder="enter password" required>
+
+            </section>
+            <br>
+            <section class="dr_login_submit">
+                <input type="submit" value="Login" class="dr_login_button">
+            </section>
+            <h4 id="error"></h4>
+        </form>
+    </section>
+
+</body>
+
+</html
